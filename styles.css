@@ -1,0 +1,115 @@
+* {
+   
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family:  'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+     
+    
+    
+}
+
+.card {
+    width: 600px;
+    height: 450px;
+    background-color:hsl(0, 0%, 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    overflow: hidden;
+  
+}
+
+img { 
+    width: 300px;
+    height: 450px;
+    size: ;
+   
+}
+
+.info {
+    padding: 33px;
+}
+
+.perfume {
+    font-family:'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 500;
+    color:hsl(228, 12%, 48%);
+    margin: -1px;
+}
+
+h1 {
+margin: 19px 0;
+font-size: 32px;
+font-family: 'Fraunces', serif;
+line-height: 33px;
+color: hsl(212, 21%, 14%);
+}
+
+p {
+    margin: 24px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    color: hsl(228, 12%, 48%);
+}
+
+.price {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.current-price {
+    color:hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-size: 2em;
+}
+
+.original-price {
+    font-size: 0.9em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+
+}
+
+.cart {
+    background-color:hsl(158, 36%, 37%);
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 1.7em;
+    height: 2.8em;
+   
+}
+
+.cart-img {
+    width: 15px;
+    height: 16px;
+}
+
+.add-to-cart {
+    color: white;
+    font-size: 14px;
+}
+
